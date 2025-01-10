@@ -1,0 +1,6 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    /* overflow-x: hidden; */
+}

@@ -1,0 +1,69 @@
+.sidebarContainer {
+    color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 2px;
+    padding:1.2em 0.5em;
+    height: 93.7vh;
+    transition: width 0.2s ease;
+    background-color: white;
+    position: sticky;
+    left: 0;
+    top: 48px;
+    
+}
+
+.collapsed {
+    width: 48px;
+}
+
+.expanded {
+    width: 250px;
+}
+.collapseIcon{
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+  margin-bottom: 1em;
+
+}
+.collapseIcon_collapsed{
+    justify-content: center;
+}
+
+.sidebarBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    cursor: pointer;
+    padding-block: 0.3em;
+    
+}
+
+.navItem {
+    text-align: left;
+    margin: 0em;
+    font-size: 13px;
+    text-wrap: nowrap;
+}
+
+.sidebarDivwithIcons {
+    display: flex;
+    justify-content: flex-start;
+    gap: .5em;
+    align-items: center;
+    padding: .5em;
+    border-radius: 4px;
+    width: 100%;
+}
+.sidebarDivwithIcons:hover {
+    background: #f3f3f3;
+}
+.activeMenu{
+    background: #7d30e148;
+    color: #7E30E1;
+}
+.activeMenu.sidebarDivwithIcons:hover{
+    background: #7d30e172;
+    color: #7E30E1;
+}

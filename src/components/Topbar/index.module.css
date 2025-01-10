@@ -1,0 +1,23 @@
+.container{
+    background:white;
+     padding:8px 16px;
+     border-bottom:1px solid #E8E8E8;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 90px;
+}
+.github_logo{
+    width: 20px;
+}
+.github_logo:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
