@@ -59,7 +59,7 @@ const ProfileSide = () => {
               sx={{ width: 25, height: 25 }}
             />
             <div className="text-sm">
-              <h4 className="font-semibold">John Doe</h4>
+              <h4 className="font-semibold">Porter Morrison</h4>
               <p className="text-gray-500 text-[12px]">Sales</p>
             </div>
           </div>
