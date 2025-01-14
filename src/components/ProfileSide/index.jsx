@@ -33,7 +33,7 @@ const ProfileSide = () => {
           </button>
         </div>
       </div>
-      <div>
+      {/* <div>
         <h3 className="font-bold">Other Admins</h3>
         <div className="flex justify-between items-center border-b-[1px] border-gray-200 py-4">
           <div className="flex gap-2 items-center">
@@ -115,7 +115,7 @@ const ProfileSide = () => {
             Contact
           </button>
         </div>
-      </div>
+      </div> */}
       <div>
         <h3 className="font-bold">Employees</h3>
         <div className="flex justify-between items-center border-b-[1px] border-gray-200 py-4">

@@ -22,7 +22,7 @@ const Dashboard = () => {
           <Card title="Employees Registered" amount="1270" icon={<PiStudentFill color="red"/>} />
           <Card title="Total Admins" amount="53" icon={<FaChalkboardTeacher color="pink"/>} />
         </div>
-        <div className={`flex flex-col gap-6 p-4 bg-[#E26FE5] rounded-3xl my-4 text-white bg-[url("/coder.png")] bg-no-repeat bg-right bg-contain w-[100%]`}>
+        {/* <div className={`flex flex-col gap-6 p-4 bg-[#E26FE5] rounded-3xl my-4 text-white bg-[url("/coder.png")] bg-no-repeat bg-right bg-contain w-[100%]`}>
           <p>ONLINE COURSE</p>
           <h2 className="text-4xl font-semibold w-[30ch]">
             Sharpen your skills with professional mentors & online courses
@@ -30,15 +30,15 @@ const Dashboard = () => {
           <button className="bg-black w-fit px-4 py-2 rounded-full text-sm">
             JOIN US
           </button>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <h2 className="font-bold text-lg mb-4">Your Courses</h2>
           <div className="flex justify-between gap-4">
             <CourseCard title="Soft Skills" pic={courseimg1} />
             <CourseCard title="Stress Management" pic={courseimg3}/>
             <CourseCard title="General Insurance" pic={courseimg2}/>
           </div>
-        </div>
+        </div> */}
         <div className="my-4">
           <h2 className="font-bold text-lg mb-4">Yearly Stats</h2>
           <GraphSection/>
