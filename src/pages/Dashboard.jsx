@@ -32,7 +32,7 @@ const Dashboard = () => {
           </button>
         </div> */}
         <div>
-          <h2 className="font-bold text-lg mb-4">Courses</h2>
+          <h2 className="font-bold text-lg my-4">Courses</h2>
           <div className="flex justify-between gap-4">
             <CourseCard title="Soft Skills" pic={courseimg1} />
             <CourseCard title="Stress Management" pic={courseimg3}/>
