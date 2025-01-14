@@ -31,14 +31,14 @@ const Dashboard = () => {
             JOIN US
           </button>
         </div> */}
-        {/* <div>
-          <h2 className="font-bold text-lg mb-4">Your Courses</h2>
+        <div>
+          <h2 className="font-bold text-lg mb-4">Courses</h2>
           <div className="flex justify-between gap-4">
             <CourseCard title="Soft Skills" pic={courseimg1} />
             <CourseCard title="Stress Management" pic={courseimg3}/>
             <CourseCard title="General Insurance" pic={courseimg2}/>
           </div>
-        </div> */}
+        </div>
         <div className="my-4">
           <h2 className="font-bold text-lg mb-4">Yearly Stats</h2>
           <GraphSection/>
